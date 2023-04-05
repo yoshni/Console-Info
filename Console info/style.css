@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav {
+    background-color: #E83046;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section {
+    font-size: 20px;
+    
+}
+
+h1, p {
+    color: #000000;
+}
+
+li {
+    color: #ffffff;
+    
+}
+
+p {
+    font-size: 18px;
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 20px;
+    color: #FFF;
+}
+
+li:hover, h1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2)
+    color rgb(255, 255, 255);
+}
+
+.consoleinfo h1 {
+    color: #E83046;
+
+}
+
+.cabeçalho h1 {
+    color: #FFF;
+
+}
+
+.destaque {
+    padding: 40px 700px;
+    
+}
+
+.gerações {
+    padding: 40px 500px;
+
+}
